@@ -63,11 +63,11 @@ const Home: React.FC = () => {
 
           <div className="flex flex-row pl-5 gap-5">
             <div className="bg-yellow-400 w-full h-30 flex items-center text-center">
-              Веб-студаи VfsterWeb.PRO Представляет html-шаблон "Метро-сайт
+              Веб-студии MasterWeb.PRO Представляет html-шаблон "Метро-сайт
               v1.0"
             </div>
             <div className="bg-blue-500 w-full h-30 flex items-center text-center">
-              Шаблон разработан на основе все известного Vttro стиля для Windows
+              Шаблон разработан на основе все известного Metro стиля для Windows
               8, адаптация произведена с помощью bootstrap v3.2
             </div>
           </div>
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
           <div className="flex flex-row pl-5 gap-5">
             <div className="bg-black w-full h-30 flex items-center text-center flex-col p-2">
               <FaRegSave className="text-2xl" />
-              100% исходные файлы всего шаблонаю Ссылка для загрузки будет
+              100% исходные файлы всего шаблона. Ссылка для загрузки будет
               доступна только Вам
             </div>
             <div className="bg-purple-500 w-full h-30 flex items-center text-center flex-col p-2">
