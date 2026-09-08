@@ -51,11 +51,13 @@ const Home: React.FC = () => {
         </div>
 
         <div className="flex flex-col w-full">
+
           <img
             className="p-5 pr-0 w-full h-80"
             src="/public/img.jpeg"
             alt="main image"
           ></img>
+
           <div className="flex flex-row pl-5 gap-5">
             <div className="bg-yellow-400 w-full h-30 flex items-center text-center">
               Веб-студаи VfsterWeb.PRO Представляет html-шаблон "Метро-сайт
@@ -97,11 +99,11 @@ const Home: React.FC = () => {
             <FaGooglePlusG className="pl-1 pr-1  text-5xl" />
             <FaPlusCircle className="pl-1" />
           </div>
-          <div>Разработано студией - MasterWeb.PRO</div>
-          <div className="flex items-center gap-1">
+          <p>Разработано студией - MasterWeb.PRO</p>
+          <p className="flex items-center gap-1">
             <MdCopyright />
             Все права защищены, 2014
-          </div>
+          </p>
         </div>
       </div>
     </div>
