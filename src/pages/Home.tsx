@@ -1,3 +1,7 @@
+import { FaRegSave } from "react-icons/fa";
+import { AiOutlineFullscreen } from "react-icons/ai";
+import { IoMdSettings } from "react-icons/io";
+
 import { HiMiniBold } from "react-icons/hi2";
 import { FaOdnoklassniki } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -51,7 +55,6 @@ const Home: React.FC = () => {
         </div>
 
         <div className="flex flex-col w-full">
-
           <img
             className="p-5 pr-0 w-full h-80"
             src="/public/img.jpeg"
@@ -74,17 +77,19 @@ const Home: React.FC = () => {
           </h1>
 
           <div className="flex flex-row pl-5 gap-5">
-            <div className="bg-black w-full h-30 flex items-center text-center">
+            <div className="bg-black w-full h-30 flex items-center text-center flex-col p-2">
+              <FaRegSave className="text-2xl" />
               100% исходные файлы всего шаблонаю Ссылка для загрузки будет
               доступна только Вам
             </div>
-            <div className="bg-purple-500 w-full h-30 flex items-center text-center">
+            <div className="bg-purple-500 w-full h-30 flex items-center text-center flex-col p-2">
+              <AiOutlineFullscreen className="text-2xl" />
               Благодаря bootstrap, вы получаете гибкий дизайн, который легко и
               быстро "натягивается" на CMS
             </div>
-            <div className="bg-cyan-500 w-full h-30 flex items-center text-center">
-              1 месяц технической поддержки по любым вопросам касающимся шаблона
-              или bootstrap
+            <div className="bg-cyan-500 w-full h-30 flex items-center text-center flex-col p-2">
+              <IoMdSettings className="text-2xl" />1 месяц технической поддержки
+              по любым вопросам касающимся шаблона или bootstrap
             </div>
           </div>
         </div>
